@@ -128,3 +128,10 @@ USE_TZ = True
 STATIC_URL = "/static/"
 
 AUTH_USER_MODEL = "users.User"
+
+# print(BASE_DIR)
+# ~/nomadcoders/env/airbnb_clonecoding_py3.6/airbnb
+# ~/nomadcoders/env/airbnb_clonecoding_py3.6/airbnb/uploads
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+
+MEDIA_URL = "/media/"
