@@ -24,8 +24,9 @@ SECRET_KEY = "#fgk^-qh4ddkst2y^mop4pq&!^vrc765t#1lp%)u6a35ew7q_i"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+# DEBUG = False
 ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = "*"
 
 
 # Application definition
@@ -49,6 +50,7 @@ PROJECT_APPS = [
     "reservations.apps.ReservationsConfig",
     "lists.apps.ListsConfig",
     "conversations.apps.ConversationsConfig",
+    "templatatag",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
