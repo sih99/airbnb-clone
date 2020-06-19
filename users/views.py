@@ -13,8 +13,10 @@ class LoginView(FormView):
     template_name = "users/login.html"
     form_class = forms.LoginForm
     success_url = reverse_lazy("core:home")
+    # post 요청이 success 됐을때..?
 
     def form_valid(self, form):
+        # post 요청이 왔을때..?
         email = form.cleaned_data.get("email")
         password = form.cleaned.data.get("password")
         user = authenticate(self.request, username=email, password=password)
@@ -33,9 +35,10 @@ class SignUpView(FormView):
     template_name = "users/signup.html"
     form_class = forms.SignUpForm
     success_url = reverse_lazy("core:home")
-    initial = {"first_name": "Sungin", "last_name": "Hong", "email": "hong@gmail.com"}
+    # post 요청이 success 됐을때..?
 
     def form_valid(self, form):
+        # post 요청이 왔을때..?
         form.save()
         email = form.cleaned_data.get("email")
         password = form.cleaned_data.get("password")
