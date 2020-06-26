@@ -50,7 +50,6 @@ PROJECT_APPS = [
     "reservations.apps.ReservationsConfig",
     "lists.apps.ListsConfig",
     "conversations.apps.ConversationsConfig",
-    "templatatag",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
@@ -147,3 +146,8 @@ EMAIL_PORT = "25"
 EMAIL_HOST_USER = os.environ.get("MAILGUN_USERNAME")
 EMAIL_HOST_PASSWORD = os.environ.get("MAILGUN_PASSWORD")
 EMAIL_FROM = "godblessyou@sandboxebb534a8e26b45e890cd24ac1131aee2.mailgun.org"
+
+
+# Auth
+
+LOGIN_URL = "/users/login"
