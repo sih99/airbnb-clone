@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-30 17:21+0900\n"
+"POT-Creation-Date: 2020-07-01 18:53+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,87 @@ msgstr ""
 msgid "Search By City"
 msgstr "Buscar por Ciudad"
 
-#: templates/partials/footer.html:4
+#: templates/partials/footer.html:6
 msgid "Please don't copy us."
 msgstr "Por favor no nos copies."
 
-#: templates/partials/footer.html:6
+#: templates/partials/footer.html:8
 msgid "All rights reserved"
 msgstr "Todos los derechos reservados"
+
+#: templates/partials/nav.html:7
+msgid "Stop hosting"
+msgstr "Cambiar a Invitado"
+
+#: templates/partials/nav.html:9
+msgid "Start hosting"
+msgstr "Cambiar a Host"
+
+#: templates/partials/nav.html:14
+msgid "Create Room"
+msgstr "Crear Habitación"
+
+#: templates/partials/nav.html:16
+msgid "Profile"
+msgstr "Perfil"
+
+#: templates/partials/nav.html:17
+msgid "Log out"
+msgstr "Cerrar Sesión"
+
+#: templates/partials/nav.html:19
+msgid "Log in"
+msgstr "Iniciar Sesión"
+
+#: templates/partials/nav.html:20
+msgid "Sign up"
+msgstr "Regístrate"
+
+#: templates/rooms/room_detail.html:30
+msgid "Save to Favourites"
+msgstr ""
+
+#: templates/rooms/room_list.html:27
+#, python-format
+msgid "Page %(current_page)s of %(total_pages)s"
+msgstr "Página %(current_page)s de %(total_pages)s"
+
+#: users/mixins.py:13 users/mixins.py:22
+msgid "Can't go there"
+msgstr "No puedo ir ahi"
+
+#: users/models.py:20
+msgid "Male"
+msgstr "Hombre"
+
+#: users/models.py:21
+msgid "Female"
+msgstr "Mujer"
+
+#: users/models.py:22
+msgid "Other"
+msgstr "Otro"
+
+#: users/models.py:28
+msgid "English"
+msgstr "Inglés"
+
+#: users/models.py:29
+msgid "Korean"
+msgstr "Coreano"
+
+#: users/models.py:49
+msgid "gender"
+msgstr "género"
+
+#: users/models.py:51
+msgid "bio"
+msgstr "biografía"
+
+#: users/models.py:54
+msgid "language"
+msgstr "lenguage"
+
+#: users/models.py:83
+msgid "Verify Airbnb Account"
+msgstr "Verificar Cuenta de Airbnb"
