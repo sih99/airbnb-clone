@@ -36,8 +36,8 @@ Cloning Airbnb using Python, Django, Tailwind and more.. through Nomad Coders Ac
     <img src="./screenshots/2.png" height="50%">
 </div>
 <div>
-    <img src="./screenshots/3.png" width="24%" height="100%">
-    <img src="./screenshots/4.png" width="24%" height="100%">
-    <img src="./screenshots/5.png" width="24%" height="100%">
-    <img src="./screenshots/6.png" width="24%" height="100%">
+    <img src="./screenshots/3.png" width="24%">
+    <img src="./screenshots/4.png" width="24%">
+    <img src="./screenshots/5.png" width="24%">
+    <img src="./screenshots/6.png" width="24%">
 </div>
