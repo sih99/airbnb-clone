@@ -32,5 +32,5 @@ Cloning Airbnb using Python, Django, Tailwind and more.. through Nomad Coders Ac
 - 25 TRANSLATIONS, LISTS AND MESSAGES
 - 26 DEPLOYMENT TO AWS (not completed)
 
-![](./screenshots/1.png){: width="100" height="25"}
-![](./screenshots/2.png){: width="100" height="25"}
+<div style="height:50%">![](./screenshots/1.png)</div>
+<div style="height:50%">![](./screenshots/2.png)</div>
