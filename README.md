@@ -1,9 +1,9 @@
 # Airbnb Clone
 
-Cloning Airbnb using Python, Django, Tailwind and more.. through Nomad Coders Academy <br>
-(Nomad Coders Academy : https://academy.nomadcoders.co/)
+Cloning Airbnb using Python, Django, Tailwind and more..<br>
+this is a result of [Nomad Coders Academy](https://academy.nomadcoders.co/) lecture.
 
-### Course Curriculum
+## Course Curriculum
 - 0 INTRODUCTION
 - 1 ENVIRONMENT SETUP
 - 2 INTRODUCTION TO DJANGO
@@ -31,6 +31,9 @@ Cloning Airbnb using Python, Django, Tailwind and more.. through Nomad Coders Ac
 - 24 RESERVATIONS AND REVIEWS
 - 25 TRANSLATIONS, LISTS AND MESSAGES
 - 26 DEPLOYMENT TO AWS  **(not completed)**
+
+
+## Screenshots
 
 <img src="./screenshots/1.png">
 <img src="./screenshots/2.png">
