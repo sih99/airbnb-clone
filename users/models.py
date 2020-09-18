@@ -19,6 +19,7 @@ class User(AbstractUser):
 
     GENDER_CHOICES = (
         (GENDER_MALE, _("Male")),
+        # translation 번역 : _()
         (GENDER_FEMALE, _("Female")),
         (GENDER_OTHER, _("Other")),
     )
