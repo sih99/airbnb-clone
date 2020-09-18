@@ -5,6 +5,8 @@ import sys
 
 import dotenv
 
+# manage.py 가 .env를 로드시켜준다
+
 
 def main():
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
