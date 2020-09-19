@@ -1,13 +1,13 @@
 # Toy Project
 
-### CAirbnb
+## CAirbnb
 
 <img src="screenshots/1.png" /><br>
 
 Cloning Airbnb using Python, Django, Tailwind and more..<br>
 This is a result of [Nomad Coders Academy](https://academy.nomadcoders.co/) lecture.
 
-##### Features
+### Features
 
 1. Django Admin Site
 2. Log In , Sign Up
@@ -15,7 +15,7 @@ This is a result of [Nomad Coders Academy](https://academy.nomadcoders.co/) lect
 4. Room, Review
 5. Reservation, Conversation
 
-##### Screenshots
+### Screenshots
 
 1. Django Admin Site
    <img src="screenshots/1-2.png" width="40%" height="50%" />
