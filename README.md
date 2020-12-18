@@ -1,4 +1,4 @@
-# NomadCoders Lecture
+# Django FrameWork Lecture
 
 ### CAirbnb
 
