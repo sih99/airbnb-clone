@@ -1,4 +1,4 @@
-# NomadCoder Lecture
+# NomadCoders Lecture
 
 ### CAirbnb
 
